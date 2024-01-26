@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+    background-color: #d3d2d2;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    border-collapse: collapse;
+    background-color: #6c5ce7;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6);
+    padding: 8px;
+}
+
+.left-side {
+    display: flex;
+}
+
+.right-side ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.right-side ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.left-side ul li {
+    display: flex;
+    padding: 12px;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+}
+
+.left-side ul h3 {
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.left-side ul {
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 30px;
+}
+
+.left-side ul li a {
+    display: flex;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.logout {
+    text-align: center;
+    margin-left: auto;
+}
+
+.logout li button {
+    padding: 5px;
+    background-color: #ffffff;
+    color: #111;
+    border-radius: 5px;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.form4 {
+    width: 400px;
+    min-height: 400px;
+    background: #fff;
+    border-radius: 5px;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); */
+    padding: 40px 30px;
+    margin: 4% auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.form4 .login-text {
+    color: #111;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+    text-transform: capitalize;
+}
+
+.form4 .login-email .input-group {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+}
+
+.form4 .login-email .input-group input {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #e7e7e7;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+    background: transparent;
+    outline: none;
+    transition: 0.3s;
+}
+
+.success {
+    width: 60%;
+    border-radius: 30px;
+    color: #ffffff;
+    background-color: #37d35c;
+    border-color: #37d35c;
+    margin: 0 auto;
+}
+
+.invalid-feedback {
+    display: block;
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
+
+.fail {
+    width: 60%;
+    border-radius: 30px;
+    color: #ffffff;
+    background-color: #f52b2b;
+    border-color: #f52b2b;
+    margin: 0 auto;
+}
+
+.form4 .login-email .input-group input:focus,
+.form4 .login-email .input-group input:valid {
+    border-color: #a29bfe;
+}
+
+.form4 .login-email .input-group .btn {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    background: #a29bfe;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form4 .login-email .input-group .btn:hover {
+    transform: translateY(-5px);
+    background: #6c5ce7;
+}
+
+.login-register-text {
+    color: #111;
+    font-weight: 600;
+}
+
+.login-register-text a {
+    text-decoration: none;
+    color: #6c5ce7;
+}
+
+@media (max-width: 430px) {
+    .form1 {
+        width: 300px;
+    }
+    .form1 .login-social {
+        display: block;
+    }
+    .form1 .login-social a {
+        display: block;
+    }
+}
+
+.containerSoal {
+    width: 90%;
+    margin: 15px auto;
+}
+
+.tableSoal {
+    width: 100%;
+    margin-top: 15px;
+    background-color: white;
+    border-color: #111;
+    border-style: solid;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.tableSoal tr td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.tableSoal th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.tableSoal tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.tambahSoalBtn {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 10px;
+    text-align: center;
+    border: none;
+    background: #7167ff;
+    outline: none;
+    font-size: 1.2rem;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.containerSoalCreate {
+    margin: 30px auto;
+    width: 90%;
+}
+
+.containerSoalCreate .headerCreate {
+    text-align: center;
+}
+
+.tableCreate {
+    margin: 0 auto;
+    width: 100%;
+    background-color: white;
+    border-style: solid;
+    border-color: #111;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+.tableCreate tr {
+    padding: 10px;
+}
+
+.tableCreate tr td {
+    padding: 20px;
+}
+
+.tableCreate tr td input {
+    width: 100%;
+}
+
+.tableCreate tr td textarea {
+    width: 100%;
+}
+
+.tableCreate tr:nth-child(4) {
+    text-align: center;
+    justify-content: center;
+}
